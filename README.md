@@ -9,17 +9,17 @@ Trained CNN model can be found in this repository: Final_Chaos_Model.h5
 Scaler from the trained model: scaler.pkl
 
 ### Versions
-python==3.9.7
-librosa==0.10.1
-numpy==1.19.5
-pandas==1.3.3
-pydub==0.25.1
-PyYAML==5.4.1
-scikit_learn==1.2.2
-scipy==1.11.3
-soundfile==0.12.1
-tensorflow_gpu==2.6.1
-tqdm==4.65.0
+python==3.9.7  
+librosa==0.10.1  
+numpy==1.19.5  
+pandas==1.3.3  
+pydub==0.25.1  
+PyYAML==5.4.1  
+scikit_learn==1.2.2  
+scipy==1.11.3  
+soundfile==0.12.1  
+tensorflow_gpu==2.6.1  
+tqdm==4.65.0  
 
 # Code
 There are two scripts that you need to run sequentially: *segment_audio.py* and *predict.py*.
@@ -28,7 +28,8 @@ There are two scripts that you need to run sequentially: *segment_audio.py* and 
 ```
 ./segment_audio.py Example_audio/Silence.wav
 ```
-Chunked audio segments are saved in the <em>Audio_segment<em> and generated output csv is <em>Audio_segments.csv<em>.
+Chunked audio segments are saved in the *Audio_segment* and generated output csv is *Audio_segments.csv*.
+
 
 
 *predict.py* gives predictions of auditory household chaos predictions for every audio chunk i.e. 5s audio segment. It reads in audio segments and the csv file with the filenames of the audio segments and outputs a csv file containing the predictions (Chaos level 0 to 3) for every segment. Run the code in the following way. 
@@ -36,7 +37,7 @@ Chunked audio segments are saved in the <em>Audio_segment<em> and generated outp
 ```
 ./predict.py
 ```
-Input is audio chunks in the <em>Audio_segments<em> folder and <em>Audio_segments.csv<em> and output is <em>Predictions.csv<em>.
+Input is audio chunks in the *Audio_segments* folder and *Audio_segments.csv* and output is *Predictions.csv*.
 
 
 ## Other resources
