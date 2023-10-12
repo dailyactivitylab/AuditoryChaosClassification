@@ -2,11 +2,11 @@
 This repository contains the code to run the auditory chaos model for continuous audio collected in real-world environments, as described in this [paper](). Given continuous audio recordings, the code segments the raw audio into 5s segments and predicts an auditory chaos level (0 (No Chaos), 1 (Low Chaos), 2 (Medium Chaos), 3 (High Chaos)) for each segment. If you use the model or code, please cite the following paper.
 
 ## Citation Information
-Khante, P., Thomaz, E., & de Barbaro, K. Detecting Auditory Household Chaos in Child-worn Real-world Audio. (Revise & Resubmit). Frontiers in Digital Health: Special Issue on Artificial Intelligence for Child Health and Wellbeing (2023).
+Khante, P., Thomaz, E., & de Barbaro, K. Auditory Chaos Classification in Real-world Environments (Revise & Resubmit). Frontiers in Digital Health: Special Issue on Artificial Intelligence for Child Health and Wellbeing (2023).
 
 ## Models and Main Package Versions 
 Trained CNN model can be found in this repository: Final_Chaos_Model.h5  
-Scaler from the trained model: scaler.pkl
+Download Scaler from Zenodo: [https://zenodo.org/record/8435643](https://zenodo.org/record/8435643). Ensure that you unzip the downloaded scaler file and put it in the same place as the above pretrained model. 
 
 ### Versions
 python==3.9.7  
