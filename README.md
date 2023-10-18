@@ -42,7 +42,8 @@ Input is audio chunks in the *Audio_segments* folder and *Audio_segments.csv* an
 
 ## Other resources
 HomeBank English deBarbaro Auditory Chaos Corpus [https://homebank.talkbank.org/access/Password/deBarbaroChaos.html](https://homebank.talkbank.org/access/Password/deBarbaroChaos.html)
-	It contains part of the Annotated dataset (from the citation) that was used to train and test the model as 8 out of 22 participants did not give us permission to share their data. 40 hours of data balanced across all four levels of auditory chaos were randomly sampled to train and test the model. The complete dataset totals 54.6h of labelled data and we make 39.4 hours publicly available on Homebank.
+
+It contains a subset of the Annotated dataset (from the citation) that was used to train and test the model as 8 out of 22 participants did not give us permission to share their data. 40 hours of data balanced across all four levels of auditory chaos were randomly sampled to train and test the model. The complete dataset totals 54.6h of labelled data and we make 39.4 hours publicly available on Homebank.
 
 ## Contact
 Contact Priyanka Khante and Kaya de Barbaro should you have any question/suggestion or if you have any problems running the code at [priyanka.khante@utexas.edu](mailto:priyanka.khante@utexas.edu) and [kaya@austin.utexas.edu](mailto:kaya@austin.utexas.edu).
