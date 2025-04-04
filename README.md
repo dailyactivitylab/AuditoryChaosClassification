@@ -1,8 +1,8 @@
 # AuditoryChaosClassification
-This repository contains the code to run the auditory chaos model for continuous audio collected in real-world environments, as described in this [paper](). Given continuous audio recordings, the code segments the raw audio into 5s segments and predicts an auditory chaos level (0 (No Chaos), 1 (Low Chaos), 2 (Medium Chaos), 3 (High Chaos)) for each segment. If you use the model or code, please cite the following paper.
+This repository contains the code to run the auditory chaos model for continuous audio collected in real-world environments, as described in this [paper](https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2023.1261057/full). Given continuous audio recordings, the code segments the raw audio into 5s segments and predicts an auditory chaos level (0 (No Chaos), 1 (Low Chaos), 2 (Medium Chaos), 3 (High Chaos)) for each segment. If you use the model or code, please cite the following paper.
 
 ## Citation Information
-Khante, P., Thomaz, E., & de Barbaro, K. Auditory Chaos Classification in Real-world Environments (Revise & Resubmit). Frontiers in Digital Health: Special Issue on Artificial Intelligence for Child Health and Wellbeing (2023).
+Khante, P., Thomaz, E., & de Barbaro, K. (2023). Auditory chaos classification in real-world environments. _Frontiers in Digital Health, 5, 1261057_.
 
 ## Models and Main Package Versions 
 Trained CNN model can be found in this repository: Final_Chaos_Model.h5  
